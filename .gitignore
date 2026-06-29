@@ -28,6 +28,10 @@ reports/
 *.pdf
 *.md.bak
 
+# Assets - demo screenshots (committed)
+!assets/
+!assets/**/*
+
 # Configuration with secrets
 config/feishu.json
 config/*.local.json

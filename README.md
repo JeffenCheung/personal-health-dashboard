@@ -50,6 +50,23 @@ See [Fragmentation Index Algorithm](docs/fragmentation-index.md) for the full ma
 
 ---
 
+## 🖼️ Dashboard Preview / 仪表盘预览
+
+<div align="center">
+
+### 📋 Overview / 总览页
+![Overview Dashboard](assets/dashboard_overview.png)
+
+### 🏃 Running Analysis / 跑步分析
+![Running Analysis](assets/dashboard_running.png)
+
+### 🦶 Fragmentation Index / 碎脚指标
+![Fragmentation Index](assets/dashboard_fragmentation.png)
+
+</div>
+
+---
+
 ### 📊 Interactive Dashboard / 交互式仪表盘
 
 Built with **ECharts 5.x**, the dashboard supports filtering, zooming, and drill-down across multiple time dimensions (7 / 14 / 30 / 90 days). No server required — everything runs in a single HTML file.
@@ -283,6 +300,10 @@ personal-health-dashboard/
 ├── LICENSE                      # MIT License
 ├── requirements.txt             # Dependencies (none!) / 依赖清单（为空！）
 ├── .gitignore
+├── assets/                      # Demo screenshots / 仪表盘截图
+│   ├── dashboard_overview.png       # Overview tab / 总览页
+│   ├── dashboard_running.png        # Running tab / 跑步分析
+│   └── dashboard_fragmentation.png  # Fragmentation tab / 碎脚指标
 ├── src/                         # Source code / 源代码
 │   ├── calc_fragmentation.py    # Fragmentation Index calculator / 碎脚指标计算
 │   ├── generate_dashboard.py    # Dashboard generator / 仪表盘生成器
