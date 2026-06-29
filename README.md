@@ -41,9 +41,38 @@ The **Fragmentation Index** is a novel metric that quantifies how "fragmented" y
 | 61 – 80 | **D** | Highly fragmented, significant energy waste / 高度碎片化 |
 | 81 – 100 | **E** | Extremely fragmented / 极度碎片化 |
 
-> 💡 **Why it matters / 为什么重要**: Studies show that intermittent walking requires more muscle activation energy and neural processing than continuous walking. A high fragmentation index correlates with subjective fatigue and lower movement efficiency.
+> 💡 **Why it matters / 为什么重要**: Studies show that intermittent walking requires up to **2.9× more energy** than continuous walking for the same distance. A high fragmentation index correlates with subjective fatigue and lower movement efficiency.
 >
-> 研究表明，间歇性行走比连续行走需要更多的肌肉激活能量和神经调节算力。碎脚指数高的日子，主观疲劳感更强，运动效率更低。
+> 研究表明，间歇性行走比连续行走多消耗高达 **2.9 倍**的能量。碎脚指数高的日子，主观疲劳感更强，运动效率更低。
+
+#### 🔬 Scientific Basis / 科学依据
+
+The Fragmentation Index is grounded in peer-reviewed research published in *Proceedings of the Royal Society B: Biological Sciences* (2024):
+
+**碎脚指标的理论依据来源于 2024 年发表于《英国皇家学会学报 B-生物科学期刊》的同行评审研究：**
+
+| Finding / 发现 | Detail / 详情 | Impact / 影响 |
+|:---|:---|:---|
+| **间歇能耗增幅 / Intermittent Energy Cost** | 间歇步行能量消耗可达连续步行的 **2.9 倍** | 每走 300 米，停下再走的能耗约为连续走完的 3 倍 |
+| **启动过渡能耗 / Start-up Transition Cost** | 10 秒步行氧气消耗是 240 秒的 **3.4 倍** | 行走段越短，启动能耗占比越高 |
+| **肌腱弹性回收 / Tendon Elastic Recovery** | 跟腱在着地时储存弹性势能，蹬地时释放 | 连续运动可利用肌腱"弹簧效应"节能 |
+
+**两大能耗机制 / Two Energy-Wasting Mechanisms:**
+
+1. **启动过渡成本 (Start-up Transition Cost)**
+   - 人体从静止启动时，能量消耗显著高于稳态运动
+   - 每次启动都需要额外的肌肉激活能量
+   - 行走段越短，启动过渡期占比越大，额外能耗越多
+
+2. **肌腱弹性损失 (Tendon Elastic Energy Loss)**
+   - 跟腱（Achilles Tendon）类似弹簧，着地时拉长储存弹性势能
+   - 蹬地时回缩释放能量，减少肌肉收缩能耗
+   - 连续运动中，肌腱可高效回收利用弹性势能
+   - 停止后，刚回收的能量散失，无法用于下一次运动
+
+> **来源 / Source:** 逛博物馆真的吸人精气？你的感觉是对的，博物馆就是会更累！果壳 (Guokr), 2024. 基于: *Proceedings of the Royal Society B: Biological Sciences*, October 2024.
+>
+> [[果壳报道]](https://mp.weixin.qq.com/s?__biz=MTg1MjI3MzY2MQ==&mid=2652365000&idx=1&sn=cedd5bbb3f4568e22536ddb7a1fe8605) · [[原始论文]](https://royalsocietypublishing.org/toc/rspb/current)
 
 See [Fragmentation Index Algorithm](docs/fragmentation-index.md) for the full mathematical formulation.
 完整算法原理请参见 [碎脚指标算法说明](docs/fragmentation-index.md)。
