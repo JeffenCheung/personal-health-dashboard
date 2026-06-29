@@ -1,0 +1,29 @@
+{
+  "webhook": {
+    "daily_summary": "https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "alert": "https://open.feishu.cn/open-apis/bot/v2/hook/yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy"
+  },
+  "app": {
+    "app_id": "cli_xxxxxxxxxxxxxxxx",
+    "app_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "calendar": {
+    "enabled": false,
+    "calendar_id": "primary"
+  },
+  "doc": {
+    "enabled": false,
+    "weekly_report_folder": "fldcnxxxxxxxxxxxxxxxxxxx"
+  },
+  "notify": {
+    "daily_summary": true,
+    "alert_on_abnormal": true,
+    "alert_thresholds": {
+      "steps_min": 3000,
+      "sleep_min_hours": 6,
+      "resting_hr_max": 100,
+      "hrv_min": 20,
+      "fragmentation_max": 70
+    }
+  }
+}

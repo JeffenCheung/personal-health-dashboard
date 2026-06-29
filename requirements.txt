@@ -1,0 +1,24 @@
+# No dependencies - uses Python standard library only
+# 无依赖 - 仅使用 Python 标准库
+#
+# This project intentionally avoids third-party Python packages.
+# All functionality is implemented using the Python standard library:
+#   - xml.etree.ElementTree (XML parsing)
+#   - csv (CSV reading/writing)
+#   - json (JSON handling)
+#   - urllib (HTTP requests for Feishu integration)
+#   - argparse (CLI)
+#   - datetime (date/time handling)
+#   - collections (data structures)
+#   - pathlib (file paths)
+#
+# 本项目刻意避免使用第三方 Python 包。
+# 所有功能均使用 Python 标准库实现：
+#   - xml.etree.ElementTree（XML 解析）
+#   - csv（CSV 读写）
+#   - json（JSON 处理）
+#   - urllib（飞书集成的 HTTP 请求）
+#   - argparse（命令行界面）
+#   - datetime（日期时间处理）
+#   - collections（数据结构）
+#   - pathlib（文件路径）

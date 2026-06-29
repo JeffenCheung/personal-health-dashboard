@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Data files - never commit personal health data
+data/raw/
+data/processed/
+*.csv
+*.xml
+*.jsonl
+
+# Generated reports
+reports/
+*.html
+*.pdf
+*.md.bak
+
+# Configuration with secrets
+config/feishu.json
+config/*.local.json
+config/secrets.json
+*.key
+*.pem
+*.p12
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Node (if any frontend build)
+node_modules/
+npm-debug.log*
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
